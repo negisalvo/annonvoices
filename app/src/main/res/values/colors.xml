@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand colors (Indigo/Slate palette) -->
+    <color name="primary">#6366F1</color>
+    <color name="primary_dark">#4F46E5</color>
+    <color name="primary_light">#EEF2FF</color>
+    <color name="accent">#10B981</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Theme neutral colors -->
+    <color name="gray_50">#F8FAFC</color>
+    <color name="gray_100">#F1F5F9</color>
+    <color name="gray_200">#E2E8F0</color>
+    <color name="gray_300">#CBD5E1</color>
+    <color name="gray_400">#94A3B8</color>
+    <color name="gray_500">#64748B</color>
+    <color name="gray_600">#475569</color>
+    <color name="gray_700">#334155</color>
+    <color name="gray_800">#1E293B</color>
+    <color name="gray_900">#0F172A</color>
+
+    <!-- Category semantic colors -->
+    <color name="cat_suggestion">#3B82F6</color> <!-- Blue -->
+    <color name="cat_complaint">#EF4444</color>  <!-- Red -->
+    <color name="cat_question">#F59E0B</color>   <!-- Amber -->
+    <color name="cat_appreciation">#10B981</color> <!-- Emerald -->
+
+    <!-- Legacy compatibility colors -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#6366F1</color>
+    <color name="purple_700">#4F46E5</color>
+    <color name="teal_200">#10B981</color>
+    <color name="teal_700">#059669</color>
+</resources>

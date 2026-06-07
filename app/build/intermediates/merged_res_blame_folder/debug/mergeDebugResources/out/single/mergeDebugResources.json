@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\layout_activity_teacher_login.xml.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\layout\\activity_teacher_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\mipmap-xhdpi_ic_launcher_monochrome.webp.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\mipmap-xhdpi\\ic_launcher_monochrome.webp"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\drawable_circle_unread.xml.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\drawable\\circle_unread.xml"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\layout_activity_teacher_dashboard.xml.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\layout\\activity_teacher_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\layout_activity_student.xml.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\layout\\activity_student.xml"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\drawable_chip_selected.xml.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\drawable\\chip_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\layout_activity_join_session.xml.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\layout\\activity_join_session.xml"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\layout_dialog_success.xml.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\layout\\dialog_success.xml"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\drawable_chip_unselected.xml.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\drawable\\chip_unselected.xml"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.anonvoices.app-debug-5:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.anonvoices.app-main-7:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\mipmap-xxhdpi_ic_launcher_monochrome.webp.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\mipmap-xxhdpi\\ic_launcher_monochrome.webp"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\layout_dialog_feedback_detail.xml.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\layout\\dialog_feedback_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\layout_item_feedback.xml.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\layout\\item_feedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\mipmap-xxxhdpi_ic_launcher_monochrome.webp.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\mipmap-xxxhdpi\\ic_launcher_monochrome.webp"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\layout_dialog_create_session.xml.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\layout\\dialog_create_session.xml"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.anonvoices.app-debug-5:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.anonvoices.app-main-7:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\layout_dialog_show_code.xml.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\layout\\dialog_show_code.xml"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\mipmap-hdpi_ic_launcher_monochrome.webp.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\mipmap-hdpi\\ic_launcher_monochrome.webp"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-debug-5:\\mipmap-mdpi_ic_launcher_monochrome.webp.flat",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\mipmap-mdpi\\ic_launcher_monochrome.webp"
+    }
+]

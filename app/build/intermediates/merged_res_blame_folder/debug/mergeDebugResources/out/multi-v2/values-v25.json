@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.anonvoices.app-mergeDebugResources-3:/values-v25/values-v25.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\binya\\.gradle\\caches\\8.13\\transforms\\7d0812c27167623890ddef0c94f18173\\transformed\\appcompat-1.6.1\\res\\values-v25\\values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        }
+    ]
+}
