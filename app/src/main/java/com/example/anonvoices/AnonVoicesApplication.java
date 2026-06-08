@@ -2,6 +2,8 @@ package com.example.anonvoices;
 
 import android.app.Application;
 import android.content.SharedPreferences;
+import android.util.Log;
+
 import androidx.appcompat.app.AppCompatDelegate;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.FirebaseOptions;
@@ -39,7 +41,7 @@ public class AnonVoicesApplication extends Application {
             
             FirebaseDatabase.getInstance(DATABASE_URL).setPersistenceEnabled(true);
         } catch (Exception e) {
-            e.printStackTrace();
+            Log.e("AnonVoicesApp", "Error during Firebase initialization", e);
         }
     }
 }

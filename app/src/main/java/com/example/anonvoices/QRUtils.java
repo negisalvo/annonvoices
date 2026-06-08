@@ -2,6 +2,8 @@ package com.example.anonvoices;
 
 import android.graphics.Bitmap;
 import android.graphics.Color;
+import android.util.Log;
+
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.WriterException;
 import com.google.zxing.common.BitMatrix;
@@ -22,7 +24,7 @@ public class QRUtils {
             }
             return bitmap;
         } catch (WriterException e) {
-            e.printStackTrace();
+            Log.e("QRUtils", "Error generating QR code", e);
             return null;
         }
     }
