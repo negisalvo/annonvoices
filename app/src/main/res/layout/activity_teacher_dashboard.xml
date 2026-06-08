@@ -29,14 +29,14 @@
                 android:text="Dashboard"
                 android:textSize="26sp"
                 android:textStyle="bold"
-                android:textColor="@color/gray_900" />
+                android:textColor="?android:attr/textColorPrimary" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Review anonymous voices"
                 android:textSize="13sp"
-                android:textColor="@color/gray_500" />
+                android:textColor="?android:attr/textColorSecondary" />
         </LinearLayout>
 
         <!-- Theme Toggle Button -->
@@ -126,7 +126,7 @@
                     android:layout_marginStart="6dp"
                     app:cardCornerRadius="16dp"
                     app:cardElevation="2dp"
-                    app:cardBackgroundColor="@color/gray_100">
+                    app:cardBackgroundColor="?attr/colorSurface">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -140,7 +140,7 @@
                             android:layout_height="wrap_content"
                             android:text="Unread Messages"
                             android:textSize="12sp"
-                            android:textColor="@color/gray_700"
+                            android:textColor="?android:attr/textColorSecondary"
                             android:textStyle="bold" />
 
                         <TextView
@@ -150,7 +150,7 @@
                             android:text="0"
                             android:textSize="28sp"
                             android:textStyle="bold"
-                            android:textColor="@color/gray_900"
+                            android:textColor="?android:attr/textColorPrimary"
                             android:layout_marginTop="4dp" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -189,7 +189,7 @@
                         android:hint="Search feedback messages..."
                         android:inputType="text"
                         android:textSize="14sp"
-                        android:textColor="@color/gray_900"
+                        android:textColor="?android:attr/textColorPrimary"
                         android:textColorHint="@color/gray_400"
                         android:paddingStart="12dp"
                         android:paddingEnd="12dp"
@@ -236,7 +236,7 @@
                         android:textSize="13sp"
                         android:layout_marginEnd="8dp"
                         android:background="@drawable/chip_unselected"
-                        android:textColor="@color/gray_600" />
+                        android:textColor="?android:attr/textColorSecondary" />
 
                     <TextView
                         android:id="@+id/chipSuggestion"
@@ -248,7 +248,7 @@
                         android:textSize="13sp"
                         android:layout_marginEnd="8dp"
                         android:background="@drawable/chip_unselected"
-                        android:textColor="@color/gray_600" />
+                        android:textColor="?android:attr/textColorSecondary" />
 
                     <TextView
                         android:id="@+id/chipComplaint"
@@ -260,7 +260,7 @@
                         android:textSize="13sp"
                         android:layout_marginEnd="8dp"
                         android:background="@drawable/chip_unselected"
-                        android:textColor="@color/gray_600" />
+                        android:textColor="?android:attr/textColorSecondary" />
 
                     <TextView
                         android:id="@+id/chipQuestion"
@@ -272,7 +272,7 @@
                         android:textSize="13sp"
                         android:layout_marginEnd="8dp"
                         android:background="@drawable/chip_unselected"
-                        android:textColor="@color/gray_600" />
+                        android:textColor="?android:attr/textColorSecondary" />
 
                     <TextView
                         android:id="@+id/chipAppreciation"
@@ -284,7 +284,7 @@
                         android:textSize="13sp"
                         android:layout_marginEnd="8dp"
                         android:background="@drawable/chip_unselected"
-                        android:textColor="@color/gray_600" />
+                        android:textColor="?android:attr/textColorSecondary" />
 
                 </LinearLayout>
             </HorizontalScrollView>

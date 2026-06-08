@@ -1370,6 +1370,8 @@ int color background_floating_material_dark 0x7f05001e
 int color background_floating_material_light 0x7f05001f
 int color background_material_dark 0x7f050020
 int color background_material_light 0x7f050021
+int color bg_dark 0x7f050333
+int color bg_light 0x7f050334
 int color black 0x7f050022
 int color bright_foreground_disabled_material_dark 0x7f050023
 int color bright_foreground_disabled_material_light 0x7f050024
@@ -2134,6 +2136,7 @@ int color secondary_text_default_material_dark 0x7f05031a
 int color secondary_text_default_material_light 0x7f05031b
 int color secondary_text_disabled_material_dark 0x7f05031c
 int color secondary_text_disabled_material_light 0x7f05031d
+int color surface_dark 0x7f050335
 int color switch_thumb_disabled_material_dark 0x7f05031e
 int color switch_thumb_disabled_material_light 0x7f05031f
 int color switch_thumb_material_dark 0x7f050320
@@ -2142,6 +2145,10 @@ int color switch_thumb_normal_material_dark 0x7f050322
 int color switch_thumb_normal_material_light 0x7f050323
 int color teal_200 0x7f050324
 int color teal_700 0x7f050325
+int color text_primary_dark 0x7f050336
+int color text_primary_light 0x7f050337
+int color text_secondary_dark 0x7f050338
+int color text_secondary_light 0x7f050339
 int color tooltip_background_dark 0x7f050326
 int color tooltip_background_light 0x7f050327
 int color white 0x7f050328

@@ -14,7 +14,7 @@
         android:src="@android:drawable/ic_menu_revert"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:tint="@color/gray_700"
+        app:tint="?android:attr/textColorSecondary"
         android:contentDescription="Back" />
 
     <LinearLayout
@@ -32,7 +32,7 @@
             android:text="Join a Session"
             android:textSize="28sp"
             android:textStyle="bold"
-            android:textColor="@color/gray_900"
+            android:textColor="?android:attr/textColorPrimary"
             android:layout_marginBottom="8dp" />
 
         <TextView
@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:text="Enter the 6-digit code or scan QR provided by your teacher to start giving feedback."
             android:textSize="14sp"
-            android:textColor="@color/gray_500"
+            android:textColor="?android:attr/textColorSecondary"
             android:gravity="center"
             android:layout_marginBottom="40dp" />
 
@@ -62,7 +62,8 @@
                 android:maxLength="6"
                 android:textSize="24sp"
                 android:textStyle="bold"
-                android:letterSpacing="0.2" />
+                android:letterSpacing="0.2"
+                android:textColor="?android:attr/textColorPrimary" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.button.MaterialButton

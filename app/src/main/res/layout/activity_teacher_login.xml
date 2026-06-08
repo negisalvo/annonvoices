@@ -44,7 +44,7 @@
                 android:text="Teacher Portal"
                 android:textSize="28sp"
                 android:textStyle="bold"
-                android:textColor="@color/gray_900" />
+                android:textColor="?android:attr/textColorPrimary" />
 
             <TextView
                 android:id="@+id/tvSubtitle"
@@ -52,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:text="Access your feedback dashboard"
                 android:textSize="14sp"
-                android:textColor="@color/gray_500"
+                android:textColor="?android:attr/textColorSecondary"
                 android:layout_marginBottom="32dp" />
 
             <!-- Form Card -->
@@ -85,7 +85,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:inputType="textPersonName"
-                            android:textColor="@color/gray_900" />
+                            android:textColor="?android:attr/textColorPrimary" />
                     </com.google.android.material.textfield.TextInputLayout>
 
                     <!-- Email Field -->
@@ -102,7 +102,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:inputType="textEmailAddress"
-                            android:textColor="@color/gray_900" />
+                            android:textColor="?android:attr/textColorPrimary" />
                     </com.google.android.material.textfield.TextInputLayout>
 
                     <!-- Password Field -->
@@ -120,7 +120,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:inputType="textPassword"
-                            android:textColor="@color/gray_900" />
+                            android:textColor="?android:attr/textColorPrimary" />
                     </com.google.android.material.textfield.TextInputLayout>
 
                     <!-- Confirm Password Field (Sign Up Only) -->
@@ -139,7 +139,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:inputType="textPassword"
-                            android:textColor="@color/gray_900" />
+                            android:textColor="?android:attr/textColorPrimary" />
                     </com.google.android.material.textfield.TextInputLayout>
 
                     <!-- Submit Button -->
@@ -181,6 +181,6 @@
         android:src="@android:drawable/ic_menu_revert"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:tint="@color/gray_700" />
+        app:tint="?android:attr/textColorSecondary" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

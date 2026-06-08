@@ -70,7 +70,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/date_placeholder"
                     android:textSize="12sp"
-                    android:textColor="@color/gray_500" />
+                    android:textColor="?android:attr/textColorSecondary" />
 
             </LinearLayout>
 
@@ -81,7 +81,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/message_placeholder"
                 android:textSize="15sp"
-                android:textColor="@color/gray_800"
+                android:textColor="?android:attr/textColorPrimary"
                 android:maxLines="2"
                 android:ellipsize="end"
                 android:lineSpacingMultiplier="1.1" />
@@ -93,7 +93,7 @@
                 android:layout_height="wrap_content"
                 android:text="Session: Algebra 2 (Code 592819)"
                 android:textSize="12sp"
-                android:textColor="@color/gray_500"
+                android:textColor="?android:attr/textColorSecondary"
                 android:layout_marginTop="8dp"
                 android:textStyle="italic" />
 

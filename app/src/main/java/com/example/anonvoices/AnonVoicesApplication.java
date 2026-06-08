@@ -13,6 +13,15 @@ public class AnonVoicesApplication extends Application {
 
     @Override
     public void onCreate() {
+        // Initialize user-preferred theme on app startup BEFORE super.onCreate()
+        SharedPreferences sp = getSharedPreferences("ThemePrefs", MODE_PRIVATE);
+        boolean isDarkMode = sp.getBoolean("isDarkMode", false);
+        if (isDarkMode) {
+            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+        } else {
+            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+        }
+
         super.onCreate();
 
         // Explicitly initialize Firebase if URL is missing from json
@@ -31,15 +40,6 @@ public class AnonVoicesApplication extends Application {
             FirebaseDatabase.getInstance(DATABASE_URL).setPersistenceEnabled(true);
         } catch (Exception e) {
             e.printStackTrace();
-        }
-
-        // Initialize user-preferred theme on app startup
-        SharedPreferences sp = getSharedPreferences("ThemePrefs", MODE_PRIVATE);
-        boolean isDarkMode = sp.getBoolean("isDarkMode", false);
-        if (isDarkMode) {
-            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
-        } else {
-            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         }
     }
 }

@@ -14,7 +14,8 @@
         android:layout_height="4dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="20dp"
-        android:background="@color/gray_300" />
+        android:background="?android:attr/textColorSecondary"
+        android:alpha="0.2" />
 
     <!-- Category Accent Tag & Date row -->
     <LinearLayout
@@ -47,7 +48,7 @@
             android:layout_height="wrap_content"
             android:text="May 24, 2026 05:00 AM"
             android:textSize="12sp"
-            android:textColor="@color/gray_500" />
+            android:textColor="?android:attr/textColorSecondary" />
     </LinearLayout>
 
     <TextView
@@ -56,7 +57,7 @@
         android:text="Student Submission:"
         android:textSize="13sp"
         android:textStyle="bold"
-        android:textColor="@color/gray_400"
+        android:textColor="?android:attr/textColorSecondary"
         android:layout_marginBottom="8dp" />
 
     <!-- Scrollable full message -->
@@ -65,7 +66,7 @@
         android:layout_height="wrap_content"
         android:maxHeight="240dp"
         android:layout_marginBottom="24dp"
-        android:background="@color/gray_50"
+        android:background="?attr/colorSurface"
         android:padding="16dp">
 
         <TextView
@@ -74,7 +75,7 @@
             android:layout_height="wrap_content"
             android:text="Full message content here..."
             android:textSize="16sp"
-            android:textColor="@color/gray_900"
+            android:textColor="?android:attr/textColorPrimary"
             android:textIsSelectable="true"
             android:lineSpacingMultiplier="1.25" />
     </androidx.core.widget.NestedScrollView>
