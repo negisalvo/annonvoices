@@ -64,6 +64,7 @@
         <activity android:name="com.example.anonvoices.JoinSessionActivity" />
         <activity android:name="com.example.anonvoices.TeacherLoginActivity" />
         <activity android:name="com.example.anonvoices.TeacherDashboardActivity" />
+        <activity android:name="com.example.anonvoices.SettingsActivity" />
         <activity
             android:name="com.journeyapps.barcodescanner.CaptureActivity"
             android:clearTaskOnLaunch="true"

@@ -1,27 +1,23 @@
 [
     {
+        "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-mergeDebugResources-4:\\layout\\activity_settings.xml",
+        "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\layout\\activity_settings.xml"
+    },
+    {
         "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-mergeDebugResources-4:\\layout\\dialog_success.xml",
         "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\layout\\dialog_success.xml"
+    },
+    {
+        "merged": "com.example.anonvoices.app-mergeDebugResources-4:/layout/dialog_change_password.xml",
+        "source": "com.example.anonvoices.app-main-7:/layout/dialog_change_password.xml"
     },
     {
         "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-mergeDebugResources-4:\\layout\\activity_teacher_login.xml",
         "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\layout\\activity_teacher_login.xml"
     },
     {
-        "merged": "com.example.anonvoices.app-mergeDebugResources-4:/layout/item_feedback.xml",
-        "source": "com.example.anonvoices.app-main-7:/layout/item_feedback.xml"
-    },
-    {
-        "merged": "com.example.anonvoices.app-mergeDebugResources-4:/layout/activity_main.xml",
-        "source": "com.example.anonvoices.app-main-7:/layout/activity_main.xml"
-    },
-    {
-        "merged": "com.example.anonvoices.app-mergeDebugResources-4:/layout/activity_teacher_dashboard.xml",
-        "source": "com.example.anonvoices.app-main-7:/layout/activity_teacher_dashboard.xml"
-    },
-    {
-        "merged": "com.example.anonvoices.app-mergeDebugResources-4:/layout/activity_teacher_login.xml",
-        "source": "com.example.anonvoices.app-main-7:/layout/activity_teacher_login.xml"
+        "merged": "com.example.anonvoices.app-mergeDebugResources-4:/layout/activity_settings.xml",
+        "source": "com.example.anonvoices.app-main-7:/layout/activity_settings.xml"
     },
     {
         "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-mergeDebugResources-4:\\layout\\activity_splash.xml",
@@ -40,28 +36,12 @@
         "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\layout\\item_feedback.xml"
     },
     {
-        "merged": "com.example.anonvoices.app-mergeDebugResources-4:/layout/activity_join_session.xml",
-        "source": "com.example.anonvoices.app-main-7:/layout/activity_join_session.xml"
-    },
-    {
-        "merged": "com.example.anonvoices.app-mergeDebugResources-4:/layout/dialog_create_session.xml",
-        "source": "com.example.anonvoices.app-main-7:/layout/dialog_create_session.xml"
-    },
-    {
         "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-mergeDebugResources-4:\\layout\\activity_main.xml",
         "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.anonvoices.app-mergeDebugResources-4:/layout/dialog_feedback_detail.xml",
-        "source": "com.example.anonvoices.app-main-7:/layout/dialog_feedback_detail.xml"
-    },
-    {
         "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-mergeDebugResources-4:\\layout\\activity_teacher_dashboard.xml",
         "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\layout\\activity_teacher_dashboard.xml"
-    },
-    {
-        "merged": "com.example.anonvoices.app-mergeDebugResources-4:/layout/activity_student.xml",
-        "source": "com.example.anonvoices.app-main-7:/layout/activity_student.xml"
     },
     {
         "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-mergeDebugResources-4:\\layout\\dialog_show_code.xml",
@@ -70,10 +50,6 @@
     {
         "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-mergeDebugResources-4:\\layout\\activity_join_session.xml",
         "source": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-main-7:\\layout\\activity_join_session.xml"
-    },
-    {
-        "merged": "com.example.anonvoices.app-mergeDebugResources-4:/layout/dialog_show_code.xml",
-        "source": "com.example.anonvoices.app-main-7:/layout/dialog_show_code.xml"
     },
     {
         "merged": "C:\\Users\\binya\\.gradle\\daemon\\8.13\\com.example.anonvoices.app-mergeDebugResources-4:\\layout\\activity_student.xml",

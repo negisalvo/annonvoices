@@ -327,7 +327,9 @@ public class TeacherDashboardActivity extends AppCompatActivity {
         selectedChip.setTextColor(ContextCompat.getColor(this, R.color.white));
 
         // Update active filter and reapply
-        activeFilter = selectedChip.getText().toString();
+        if (selectedChip.getTag() != null) {
+            activeFilter = selectedChip.getTag().toString();
+        }
         applyFiltersAndSearch();
     }
 

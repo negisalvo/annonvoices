@@ -77,4 +77,27 @@
     <string name="dark_mode">Dark Mode</string>
     <string name="about_anonvoices">About AnonVoices</string>
     <string name="about_desc">Version 1.0.0\n\nA secure, anonymous feedback platform where students can voice their thoughts freely and teachers can manage sessions with ease.</string>
+    <string name="change_password">Change Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="update">Update</string>
+    <string name="password_updated">Password updated successfully</string>
+    <string name="error_fields_empty">All fields are required</string>
+    <string name="error_password_match">New passwords do not match</string>
+    <string name="reauth_failed">Authentication failed. Check your current password.</string>
+
+    <!-- Teacher Dashboard Additional -->
+    <string name="review_voices">Review anonymous voices</string>
+    <string name="total_voices">Total Voices</string>
+    <string name="zero">0</string>
+    <string name="unread_messages">Unread Messages</string>
+    <string name="search_hint">Search feedback messages...</string>
+    <string name="filter_all">All</string>
+    <string name="filter_unread">Unread</string>
+    <string name="filter_suggestion">Suggestion</string>
+    <string name="filter_complaint">Complaint</string>
+    <string name="filter_question">Question</string>
+    <string name="filter_appreciation">Appreciation</string>
+    <string name="initiate_feedback">Initiate Feedback</string>
 </resources>

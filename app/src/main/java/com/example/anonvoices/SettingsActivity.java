@@ -3,17 +3,26 @@ package com.example.anonvoices;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.text.TextUtils;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.switchmaterial.SwitchMaterial;
+import com.google.android.material.textfield.TextInputLayout;
+import com.google.firebase.auth.AuthCredential;
+import com.google.firebase.auth.EmailAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class SettingsActivity extends AppCompatActivity {
 
@@ -27,6 +36,7 @@ public class SettingsActivity extends AppCompatActivity {
         TextView tvUserName = findViewById(R.id.tvUserName);
         SwitchMaterial switchDarkMode = findViewById(R.id.switchDarkMode);
         LinearLayout rowAbout = findViewById(R.id.rowAbout);
+        LinearLayout rowChangePassword = findViewById(R.id.rowChangePassword);
         LinearLayout rowLogout = findViewById(R.id.rowLogout);
 
         // Set User Name from Intent
@@ -58,6 +68,9 @@ public class SettingsActivity extends AppCompatActivity {
                 .setPositiveButton(android.R.string.ok, null)
                 .show());
 
+        // Change Password
+        rowChangePassword.setOnClickListener(v -> showChangePasswordDialog());
+
         // Logout
         rowLogout.setOnClickListener(v -> new MaterialAlertDialogBuilder(this)
                 .setTitle(R.string.sign_out)
@@ -76,5 +89,75 @@ public class SettingsActivity extends AppCompatActivity {
                 })
                 .setNegativeButton(R.string.cancel, null)
                 .show());
+    }
+
+    private void showChangePasswordDialog() {
+        View dialogView = LayoutInflater.from(this).inflate(R.layout.dialog_change_password, null);
+        TextInputLayout tilNew = dialogView.findViewById(R.id.tilNewPassword);
+        TextInputLayout tilConfirm = dialogView.findViewById(R.id.tilConfirmNewPassword);
+        
+        EditText etCurrent = dialogView.findViewById(R.id.etCurrentPassword);
+        EditText etNew = dialogView.findViewById(R.id.etNewPassword);
+        EditText etConfirm = dialogView.findViewById(R.id.etConfirmNewPassword);
+
+        AlertDialog dialog = new MaterialAlertDialogBuilder(this)
+                .setView(dialogView)
+                .setPositiveButton(R.string.update, null) // Set null to override behavior
+                .setNegativeButton(R.string.cancel, null)
+                .create();
+
+        dialog.setOnShowListener(dialogInterface -> {
+            dialog.getButton(AlertDialog.BUTTON_POSITIVE).setOnClickListener(v -> {
+                String currentPw = etCurrent.getText().toString().trim();
+                String newPw = etNew.getText().toString().trim();
+                String confirmPw = etConfirm.getText().toString().trim();
+
+                if (TextUtils.isEmpty(currentPw) || TextUtils.isEmpty(newPw) || TextUtils.isEmpty(confirmPw)) {
+                    Toast.makeText(this, R.string.error_fields_empty, Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+                if (newPw.length() < 6) {
+                    tilNew.setError(getString(R.string.error_password_length));
+                    return;
+                } else {
+                    tilNew.setError(null);
+                }
+
+                if (!newPw.equals(confirmPw)) {
+                    tilConfirm.setError(getString(R.string.error_password_match));
+                    return;
+                } else {
+                    tilConfirm.setError(null);
+                }
+
+                performPasswordUpdate(currentPw, newPw, dialog);
+            });
+        });
+
+        dialog.show();
+    }
+
+    private void performPasswordUpdate(String currentPw, String newPw, AlertDialog dialog) {
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        if (user == null || user.getEmail() == null) return;
+
+        AuthCredential credential = EmailAuthProvider.getCredential(user.getEmail(), currentPw);
+
+        user.reauthenticate(credential).addOnCompleteListener(task -> {
+            if (task.isSuccessful()) {
+                user.updatePassword(newPw).addOnCompleteListener(updateTask -> {
+                    if (updateTask.isSuccessful()) {
+                        Toast.makeText(this, R.string.password_updated, Toast.LENGTH_LONG).show();
+                        dialog.dismiss();
+                    } else {
+                        String error = updateTask.getException() != null ? updateTask.getException().getMessage() : "Update failed";
+                        Toast.makeText(this, error, Toast.LENGTH_LONG).show();
+                    }
+                });
+            } else {
+                Toast.makeText(this, R.string.reauth_failed, Toast.LENGTH_LONG).show();
+            }
+        });
     }
 }

@@ -25,10 +25,7 @@ public final class ActivityTeacherDashboardBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ImageButton btnLogout;
-
-  @NonNull
-  public final ImageButton btnToggleTheme;
+  public final ImageButton btnSettings;
 
   @NonNull
   public final TextView chipAll;
@@ -73,17 +70,16 @@ public final class ActivityTeacherDashboardBinding implements ViewBinding {
   public final TextView tvLabelUnread;
 
   private ActivityTeacherDashboardBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageButton btnLogout, @NonNull ImageButton btnToggleTheme,
-      @NonNull TextView chipAll, @NonNull TextView chipAppreciation,
-      @NonNull TextView chipComplaint, @NonNull TextView chipQuestion,
-      @NonNull TextView chipSuggestion, @NonNull TextView chipUnread, @NonNull EditText etSearch,
+      @NonNull ImageButton btnSettings, @NonNull TextView chipAll,
+      @NonNull TextView chipAppreciation, @NonNull TextView chipComplaint,
+      @NonNull TextView chipQuestion, @NonNull TextView chipSuggestion,
+      @NonNull TextView chipUnread, @NonNull EditText etSearch,
       @NonNull ExtendedFloatingActionButton fabInitiateSession,
       @NonNull LinearLayout layoutFilterChips, @NonNull LinearLayout layoutHeader,
       @NonNull RecyclerView recyclerView, @NonNull TextView tvCountTotal,
       @NonNull TextView tvCountUnread, @NonNull TextView tvLabelUnread) {
     this.rootView = rootView;
-    this.btnLogout = btnLogout;
-    this.btnToggleTheme = btnToggleTheme;
+    this.btnSettings = btnSettings;
     this.chipAll = chipAll;
     this.chipAppreciation = chipAppreciation;
     this.chipComplaint = chipComplaint;
@@ -127,15 +123,9 @@ public final class ActivityTeacherDashboardBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btnLogout;
-      ImageButton btnLogout = ViewBindings.findChildViewById(rootView, id);
-      if (btnLogout == null) {
-        break missingId;
-      }
-
-      id = R.id.btnToggleTheme;
-      ImageButton btnToggleTheme = ViewBindings.findChildViewById(rootView, id);
-      if (btnToggleTheme == null) {
+      id = R.id.btnSettings;
+      ImageButton btnSettings = ViewBindings.findChildViewById(rootView, id);
+      if (btnSettings == null) {
         break missingId;
       }
 
@@ -223,10 +213,10 @@ public final class ActivityTeacherDashboardBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityTeacherDashboardBinding((ConstraintLayout) rootView, btnLogout,
-          btnToggleTheme, chipAll, chipAppreciation, chipComplaint, chipQuestion, chipSuggestion,
-          chipUnread, etSearch, fabInitiateSession, layoutFilterChips, layoutHeader, recyclerView,
-          tvCountTotal, tvCountUnread, tvLabelUnread);
+      return new ActivityTeacherDashboardBinding((ConstraintLayout) rootView, btnSettings, chipAll,
+          chipAppreciation, chipComplaint, chipQuestion, chipSuggestion, chipUnread, etSearch,
+          fabInitiateSession, layoutFilterChips, layoutHeader, recyclerView, tvCountTotal,
+          tvCountUnread, tvLabelUnread);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -33,6 +33,8 @@
     <color name="text_secondary_dark">#A0AEC0</color>
     <color name="text_secondary_light">#4A5568</color>
     <color name="white">#FFFFFFFF</color>
+    <string name="about_anonvoices">About AnonVoices</string>
+    <string name="about_desc">Version 1.0.0\n\nA secure, anonymous feedback platform where students can voice their thoughts freely and teachers can manage sessions with ease.</string>
     <string name="already_account_sign_in">Already have an account? Sign In</string>
     <string name="already_read">Already Read</string>
     <string name="anonymous_disclaimer">Your message is encrypted and submitted anonymously. Teachers cannot see your identity.</string>
@@ -41,11 +43,15 @@
     <string name="cancel">Cancel</string>
     <string name="category">Category</string>
     <string name="category_label">Category:</string>
+    <string name="change_password">Change Password</string>
     <string name="choose_role_subtitle">Choose your role to get started</string>
+    <string name="confirm_new_password">Confirm New Password</string>
     <string name="copied_to_clipboard">Copied to clipboard</string>
     <string name="create_account">Create Account</string>
     <string name="create_account_subtitle">Register to review student voices</string>
     <string name="creating_account">Creating Account...</string>
+    <string name="current_password">Current Password</string>
+    <string name="dark_mode">Dark Mode</string>
     <string name="dark_mode_enabled">Dark Theme Enabled</string>
     <string name="dashboard">Dashboard</string>
     <string name="date">Date</string>
@@ -58,36 +64,53 @@
     <string name="error_confirm_password">Please confirm your password</string>
     <string name="error_email_required">Email address is required</string>
     <string name="error_empty_message">Please type a message before submitting.</string>
+    <string name="error_fields_empty">All fields are required</string>
     <string name="error_invalid_email">Please enter a valid email address</string>
     <string name="error_long_message">Feedback cannot exceed 500 characters.</string>
     <string name="error_name_required">Full Name is required</string>
     <string name="error_password_length">Password must be at least 6 characters</string>
+    <string name="error_password_match">New passwords do not match</string>
     <string name="error_password_required">Password is required</string>
     <string name="error_passwords_mismatch">Passwords do not match</string>
     <string name="failed_load_voices">Failed to load voices: </string>
     <string name="feedback_category">Feedback Category</string>
     <string name="feedback_deleted">Feedback deleted</string>
     <string name="feedback_placeholder">Feedback message goes here...</string>
+    <string name="filter_all">All</string>
+    <string name="filter_appreciation">Appreciation</string>
+    <string name="filter_complaint">Complaint</string>
+    <string name="filter_question">Question</string>
+    <string name="filter_suggestion">Suggestion</string>
+    <string name="filter_unread">Unread</string>
     <string name="gcm_defaultSenderId" translatable="false">362554722478</string>
+    <string name="general">General</string>
     <string name="google_api_key" translatable="false">AIzaSyDp4tTy-sW7z1KcCC0jbEiqbl8Nq_Uvm3g</string>
     <string name="google_app_id" translatable="false">1:362554722478:android:d3d9b0fad0ab50f0dbc53f</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDp4tTy-sW7z1KcCC0jbEiqbl8Nq_Uvm3g</string>
     <string name="google_storage_bucket" translatable="false">apps-67f5a.firebasestorage.app</string>
+    <string name="initiate_feedback">Initiate Feedback</string>
     <string name="light_mode_enabled">Light Theme Enabled</string>
     <string name="logged_out">Logged out</string>
     <string name="login">Login</string>
     <string name="mark_as_read">Mark as Read</string>
     <string name="message_placeholder">This is a preview of the anonymous feedback submitted by a student...</string>
     <string name="name_hint">Full Name</string>
+    <string name="new_password">New Password</string>
     <string name="no_account_sign_up">Don\'t have an account? Sign Up</string>
     <string name="password">Password</string>
+    <string name="password_updated">Password updated successfully</string>
     <string name="project_id" translatable="false">apps-67f5a</string>
     <string name="read">Read</string>
+    <string name="reauth_failed">Authentication failed. Check your current password.</string>
     <string name="register">Register</string>
     <string name="registration_failed">Registration failed.</string>
     <string name="registration_successful">Registration Successful!</string>
+    <string name="review_voices">Review anonymous voices</string>
+    <string name="role_educator">Role: Educator / Administrator</string>
     <string name="role_student">I am a Student</string>
     <string name="role_teacher">I am a Teacher</string>
+    <string name="search_hint">Search feedback messages...</string>
+    <string name="settings">Settings</string>
     <string name="sign_in">Sign In</string>
     <string name="sign_out">Sign Out</string>
     <string name="sign_out_message">Are you sure you want to sign out of the Teacher Portal?</string>
@@ -103,9 +126,13 @@
     <string name="teacher_login">Teacher Login</string>
     <string name="teacher_portal">Teacher Portal</string>
     <string name="teacher_portal_subtitle">Access your feedback dashboard</string>
+    <string name="total_voices">Total Voices</string>
+    <string name="unread_messages">Unread Messages</string>
+    <string name="update">Update</string>
     <string name="username">Username</string>
     <string name="welcome_back">Welcome back!</string>
     <string name="welcome_title">Welcome to AnonVoices</string>
+    <string name="zero">0</string>
     <style name="Theme.AnonVoices" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/primary</item>
