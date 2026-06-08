@@ -27,6 +27,7 @@
         <activity android:name=".JoinSessionActivity" />
         <activity android:name=".TeacherLoginActivity" />
         <activity android:name=".TeacherDashboardActivity" />
+        <activity android:name=".SettingsActivity" />
 
     </application>
 

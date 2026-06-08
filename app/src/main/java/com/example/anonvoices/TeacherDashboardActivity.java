@@ -106,41 +106,12 @@ public class TeacherDashboardActivity extends AppCompatActivity {
                 });
 
         // Initialize header controls
-        ImageButton btnToggleTheme = findViewById(R.id.btnToggleTheme);
-        ImageButton btnLogout = findViewById(R.id.btnLogout);
+        ImageButton btnSettings = findViewById(R.id.btnSettings);
 
-        // Theme switching handler
-        SharedPreferences themePrefs = getSharedPreferences("ThemePrefs", MODE_PRIVATE);
-        boolean isDark = themePrefs.getBoolean("isDarkMode", false);
-        btnToggleTheme.setImageResource(isDark ? android.R.drawable.btn_star_big_on : android.R.drawable.btn_star_big_off);
-
-        btnToggleTheme.setOnClickListener(v -> {
-            boolean currentMode = themePrefs.getBoolean("isDarkMode", false);
-            boolean newMode = !currentMode;
-            themePrefs.edit().putBoolean("isDarkMode", newMode).apply();
-
-            if (newMode) {
-                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
-            } else {
-                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
-            }
-            Toast.makeText(this, newMode ? "Dark Theme Enabled" : "Light Theme Enabled", Toast.LENGTH_SHORT).show();
-            recreate();
-        });
-
-        // Logout handler
-        btnLogout.setOnClickListener(v -> {
-            new MaterialAlertDialogBuilder(this)
-                    .setTitle("Sign Out")
-                    .setMessage("Are you sure you want to sign out of the Teacher Portal?")
-                    .setPositiveButton("Sign Out", (dialog, which) -> {
-                        mAuth.signOut();
-                        Toast.makeText(TeacherDashboardActivity.this, "Logged out", Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(TeacherDashboardActivity.this, MainActivity.class));
-                        finish();
-                    })
-                    .setNegativeButton("Cancel", null)
-                    .show();
+        btnSettings.setOnClickListener(v -> {
+            Intent intent = new Intent(TeacherDashboardActivity.this, SettingsActivity.class);
+            intent.putExtra("teacherName", currentTeacherName);
+            startActivity(intent);
         });
 
         // Initialize counters, search views, and FAB
